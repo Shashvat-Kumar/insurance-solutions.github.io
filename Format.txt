@@ -1,0 +1,22 @@
+1) Children Plans
+2) Endownment Plans
+3) Money Back Plans
+4) Single Premium Plans
+5) Term Plans
+6) Pension Plans
+7) ULIP Plans
+8) Health Plans
+9) Vehicle Insuarance
+10) Fire Insuarance
+11) Burglary Insuarance
+12) WCP
+13) Accidental Insuarance
+14) Travel Insuarance
+
+LIC
+Star Health
+ICIC Lombard
+Go Digit
+Niva Bupa
+Tata
+HDFC Ergo

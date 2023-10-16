@@ -1,0 +1,32 @@
+To add numbers to a WhatsApp broadcast using Javascript, you can follow these steps:
+Open WhatsApp on your phone and go to the Settings menu.
+Tap on Broadcast Lists.
+Tap on the name of the broadcast list you want to add numbers to.
+Tap on the Add Participants button.
+Enter the phone numbers of the people you want to add to the broadcast list.
+Tap on the Done button.
+The people whose phone numbers you entered will be added to the broadcast list. You can then send a message to the broadcast list by tapping on the Send Message button.
+Here is the JavaScript code that you can use to add numbers to a WhatsApp broadcast:
+function addNumbersToWhatsappBroadcast(numbers) {
+  // Get the broadcast list object.
+  var broadcastList = whatsapp.getBroadcastList(name);
+
+  // Add the numbers to the broadcast list.
+  for (var i = 0; i < numbers.length; i++) {
+    broadcastList.addNumber(numbers[i]);
+  }
+
+  // Save the broadcast list.
+  broadcastList.save();
+}
+Use code with caution.
+Learn more
+Here is an example of how you can use the JavaScript code:
+// Get the phone numbers to add to the broadcast list.
+var numbers = ["1234567890", "9876543210"];
+
+// Add the numbers to the broadcast list.
+addNumbersToWhatsappBroadcast(numbers);
+Use code with caution.
+Learn more
+This code will add the phone numbers 1234567890 and 9876543210 to the broadcast list.

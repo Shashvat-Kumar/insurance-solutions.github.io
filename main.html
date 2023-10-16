@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<head>
+    <title>Insurance Solutions</title>
+    <link href="./style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com/dist/email.min.js"></script>
+</head>
+
+<body>
+    <div id="contact1">
+        <form action="./main.html" method="post" id="formofak">
+            <div id="forms1">
+                <h2>Contact us</h2>
+                <label for="name">Enter your name:</label>
+                <br>
+                <input type="text" required name="name" class="name">
+                <br>
+                <label for="mobile-no">Enter your phone number:</label>
+                <br>
+                <input type="text" required name="mobile-no" class="mobile-no" minlength="10" maxlength="10">
+                <br>
+                <label for="isuue">What are your concerns?</label>
+                <br>
+                <textarea class="issue" name="Isuue" rows="4" cols="35" required>Type your queries....</textarea>
+                <br>
+                <label for="checkbox">Do you want a <em><b>free</b></em> subscription of our newsletter?</label>
+                <input type="checkbox" class="ckeckbox" name="Yes" value="Yes" checked>
+                <label for="submit"></label>
+                <br>
+                <input type="submit" onclick="sendEmail(event);" class="submit" value="Submit">
+            </div>
+        </form>
+
+    </div>
+    <div class="fixed-text">
+        Contact us at +91 9899533164 or akhil233@gmail.com!
+    </div>
+    <div id="txtcont">
+        <h1>For more details, feel free to contact us! You can fill the form or directly call or email us.</h1>
+    </div>
+    <div id="heading">
+        <h1>Free Insurance Solutions at your Doorstep...</h1>
+    </div>
+
+    <div id="logos">
+        <img src="./Untitled design.png" alt="Logos"/>
+    </div>
+
+    <div class="lists">
+        <h1>Index:</h1>
+        <ul type="disc">
+            <li><a href="#children-plans">Children Plans</a></li>
+            <li><a href="#endownment-plans">Endownment Plans</a></li>
+            <li><a href="#money-back-plans">Money Back Plans</a></li>
+            <li><a href="#single-premium-plans">Single Premium Plans</a></li>
+            <li><a href="#term-plans">Term Plans</a></li>
+            <li><a href="#pension-plans">Pension Plans</a></li>
+            <li><a href="#ulip-plans">ULIP Plans</a></li>
+            <li><a href="#health-plans">Health Plans</a></li>
+            <li><a href="#vehicle-insuarance">Vehicle Insuarance</a></li>
+            <li><a href="#fire-insurance">Fire Insuarance</a></li>
+            <li><a href="#burglary-insuarance">Burglary Insuarance</a></li>
+            <li><a href="#wcp">WCP</a></li>
+            <li><a href="#accidental-insuarance">Accidental Insuarance</a></li>
+            <li><a href="#travel-insuarance">Travel Insuarance</a></li>
+            <li><a href="#contact">Contact us</a></li>
+            <li><a href="#about">About the advisor</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <div id="children-plans">
+        <h2>Children Plans</h2>
+        <img src="./Bhalu3.jpg" alt="Best 3G Plan">
+        <img src="./Bhalu4.jpg" alt="K.G. se P.G.">
+        <img src="./Bhalu13.jpg" alt="Child Future Plan">
+        <img src="./Bhalu14.jpg" alt="Nai Kanya Dan Yojna">
+        <video src="./Bhaluvid1.mp4" controls>Video not supported!</video>
+        <img src="./Bhalu18.jpg" alt="Super Education Plan">
+    </div>
+    <br>
+    <br>
+    <div id="endownment-plans">
+        <h2>Endownment Plans</h2>
+        <img src="./bhalu.jpg" alt="Beti Vivaah Yojna">
+        <img src="./Bhalu2.jpg" alt="Jeevan Sathi">
+        <img src="./Bhalu6.jpg" alt="New plan of LIC">
+        <img src="./Bhalu9.jpg" alt="Triveni Plan">
+        <video src="./Bhaluvid2.mp4" controls>Video not supported!</video>
+        <img src="./Bhalu17.jpg" alt="Surakshit Parivaar Bima">
+        <img src="./Bhalu20.jpg" alt="New Jeevan Aanand">
+    </div>
+    <br>
+    <br>
+    <div id="money-back-plans">
+        <h2>Money Back Plans</h2>
+        <img src="./Bhalu5.jpg" alt="Special money back plan">
+        <img src="./Bhalu11.jpg" alt="15 times Money Back Plan">
+        <img src="./Bhalu12.jpg" alt="Jeevan Dhanvarsha">
+    </div>
+    <br>
+    <br>
+    <div id="single-premium-plans">
+        <h2>Single Premium Plans</h2>
+        <img src="./Bhalu22.jpg" alt="Single Premium Plans">
+    </div>
+    <br>
+    <br>
+    <div id="term-plans">
+        <h2>Term Plans</h2>
+        <img src="./Bhalu19.jpg" alt="Term Insurance Plan">
+    </div>
+    <br>
+    <br>
+    <div id="pension-plans">
+        <h2>Pension Plans</h2>
+        <img src="./Bhalu7.jpg" alt="Pension Plan">
+        <img src="./Bhalu8.jpg" alt="Pension Plan">
+        <img src="./Bhalu15.jpg" alt="Dhan Sampatti">
+        <img src="./Bhalu16.jpg" alt="E Nivaas Yojna">
+        <img src="./Bhalu21.jpg" alt="Surakshit Jeevan">
+    </div>
+    <br>
+    <br>
+    <div id="ulip-plans">
+        <h2>ULIP Plans</h2>
+        <img src="./Bhalu10.jpg" alt="Fixed Deposit">
+    </div>
+    <br>
+    <br>
+    <div id="health-plans">
+        <h2>Health Plans</h2>
+        <video src="./Bhaluvid4.mp4" controls>Video not supported!</video>
+        <img src="./Bhalu23.jpg" alt="Health Plan">
+    </div>
+    <br>
+    <br>
+    <div id="vehicle-insuarance">
+        <h2>Vehicle Insuarance</h2>
+        <video src="./Bhaluvid3.mp4" controls>Video not supported!</video>
+    </div>
+    <br>
+    <br>
+    <div id="fire-insurance">
+        <h2>Fire Insuarance</h2>
+        <img src="./fire.png" alt="Fire Plan">
+    </div>
+    <br>
+    <br>
+    <div id="burglary-insuarance">
+        <h2>Burglary Insuarance</h2>
+        <img src="./Burglary.jpg" alt="Burglary Plan">
+    </div>
+    <br>
+    <br>
+    <div id="wcp">
+        <h2>WCP</h2>
+        <video src="./WCP.mp4" controls>Video not supported!</video>
+    </div>
+    <br>
+    <br>
+    <div id="accidental-insuarance">
+        <h2>Accidental Insuarance</h2>
+        <img src="./Bhalu24.jpg" alt="Accidental Plan">
+    </div>
+    <br>
+    <br>
+    <div id="travel-insuarance">
+        <h2>Travel Insuarance</h2>
+        <video controls src="./Travel.mp4">Video is not supported!</video>
+    </div>
+    <br>
+    <br>
+    <div id="contact">
+        <h2>Contact us</h2>
+        <form method="post" action="./main.html" id="formofak2">
+            <div id="forms2">
+                <label for="name">Enter your name:</label>
+                <br>
+                <input type="text" required name="Name" class="name">
+                <br>
+                <label for="mobile-no">Enter your phone number:</label>
+                <br>
+                <input type="text" required name="Mobile-no" class="mobile-no" minlength="10" maxlength="10">
+                <br>
+                <label for="isuue">What are your concerns?</label>
+                <br>
+                <textarea class="issue" name="Isuue" rows="4" cols="35" required>Type your queries....</textarea>
+                <br>
+                <label for="checkbox">Do you want a <em><b>free</b></em> subscription of our newsletter?</label>
+                <input type="checkbox" class="ckeckbox" name="Yes" value="Yes" checked>
+                <label for="submit"></label>
+                <br>
+                <input type="submit" class="submit" value="Submit" onclick="sendEmailtwo(event);">
+                <br>
+                <h2>You can call us or email at +91 9899533164 or akhil233@gmail.com!</h2>
+            </div>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div id="about">
+        <h2>About the advisor</h2>
+        <img src="./Bhalupic.jpg" alt="Akhilesh Kumar">
+        <div class="about-bhalu">
+            Akhilesh Kumar is an insurace expert since 2010. He doesn't force anybody to do these kind of things and explains each an every point clearly. The data in this website was just a sample. For other kind of works, you can contact us at +91 9899533164 or akhil233@gmail.com. You may also visit us in India. Thank you for being with us throughout the site!
+        </div> 
+    </div>
+    <br>
+    <br>
+    <div id="made">
+        Made with 
+        <img src="./images-removebg-preview-removebg-preview.png" alt="Love"> 
+        by Shashvat!
+    </div>
+    <script type="text/javascript">
+        function sendEmail(event){
+            event.preventDefault();
+            (function(){
+                emailjs.init("nimidbSBavUr2IhU-");
+            })();
+
+            var params = {
+                from: document.querySelector("#formofak .name").value,
+                message: document.querySelector("#formofak .issue").value,
+                mobile: document.querySelector("#formofak .mobile-no").value,
+                subscription: document.querySelector("#formofak input[name='Yes']").checked ? "Yes" : "No",
+
+            };
+
+            var serviceID = "service_udhjvmo";
+            var templateID = "template_j8t3htv";
+            emailjs.send(serviceID, templateID, params)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                alert("The issue has been sent! You will be contacted shortly.");
+            }, function(err) {
+                console.log('FAILED...', err);
+            });
+        }
+
+    </script>
+    <script type="text/javascript">
+        function sendEmailtwo(event){
+            event.preventDefault();
+            (function(){
+                emailjs.init("nimidbSBavUr2IhU-");
+            })();
+
+            var params = {
+                from: document.querySelector("#formofak2 .name").value,
+                message: document.querySelector("#formofak2 .issue").value,
+                mobile: document.querySelector("#formofak2 .mobile-no").value,
+                subscription: document.querySelector("#formofak2 input[name='Yes']").checked ? "Yes" : "No",
+
+            };
+
+            var serviceID = "service_udhjvmo";
+            var templateID = "template_j8t3htv";
+            emailjs.send(serviceID, templateID, params)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                alert("The issue has been sent! You will be contacted shortly.");
+            }, function(err) {
+                console.log('FAILED...', err);
+            });
+        }
+
+    </script>
+</body>

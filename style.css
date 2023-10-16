@@ -1,0 +1,145 @@
+#txtcont {
+  background-color: brown;
+  position: fixed;
+  color: blanchedalmond;
+  font-size: 10px;
+  z-index: 2;
+  bottom: 0;
+}
+
+
+.free {
+  font-weight: bold;
+}
+
+
+#made {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  z-index: 542;
+  position: relative;
+}
+
+
+#contact {
+  color: rgb(30, 255, 0);
+  background-image: url("./360_F_69424905_vxTpRGAcVKni9157VpKAOG6MpTX30etl.jpg");
+  padding-bottom: 2px;
+  width: 500px;
+  font-weight: bold;
+  padding-top: 4px;
+}
+#contact1 h2,
+#cantact h2 {
+  font-size: 20px;
+}
+#contact1 {
+  color: rgb(4, 255, 0);
+  background-image: url("./360_F_69424905_vxTpRGAcVKni9157VpKAOG6MpTX30etl.jpg");
+  padding-bottom: 2px;
+  width: 350px;
+  float: right;
+  margin-top: 440px;
+  padding-left: 2px;
+  padding-top: -80px;
+  font-weight: bold;
+
+}
+
+
+@keyframes pulse {
+    0%, 100% {
+      background-color: red;
+    }
+    50% {
+      background-color: orange;
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(150px, 0);
+    }
+    
+    80% {
+      transform: translate(-150px, 0);
+    }
+  }
+
+.fixed-text {
+    position: fixed;
+    font-family: impact;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    width: 500px;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    left: 400px;
+    animation: 
+        pulse 3s ease infinite alternate, 
+        nudge 5s linear infinite alternate;
+}
+
+
+body {
+    background-image: url("./Insurance.png");
+}
+
+#heading {
+    color: rgb(255, 0, 183);
+    padding: 0.05cm;
+    width: 700px;
+    background-image: url("milky-way-2695569_1280.jpg");
+    font-size: 20px;
+    position: relative;
+    font-family: cursive;
+    opacity: 0.9;
+}
+#logos {
+    float: right;
+    margin: -300px;
+    margin-top: -130px;
+}
+
+.lists a {
+    color: rgb(40, 8, 137);
+    font-family: fantasy;
+}
+
+.lists a:hover {
+    color: rgb(255, 234, 0);
+    font-family: serif;
+    font-size: 30px;
+}
+
+.lists {
+    background-image: url("abstract-background-6m6cjbifu3zpfv84.png");
+    width: 760px;
+    opacity: 0.9;
+}
+
+.lists h1 {
+  font-size: 40px;
+}
+
+h2 {
+  background-image: url("./images.jpeg");
+  width: 430px;
+  color: brown;
+  opacity: 0.85;
+  font-size: 40px;
+}
+
+
+.about-bhalu {
+  background-color: aquamarine;
+  font-size: 20px;
+  color: blueviolet;
+}
