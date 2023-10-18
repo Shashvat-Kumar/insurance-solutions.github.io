@@ -125,26 +125,7 @@
 }
   
 
-
-
-
-body {
-    background-image: url("./Insurance.png");
-}
-
-.heading {
-    color: rgb(255, 0, 183);
-    padding: 0.05cm;
-    width: 700px;
-    background-image: url("milky-way-2695569_1280.jpg");
-    font-size: 20px;
-    position: relative;
-    font-family: cursive;
-    opacity: 0.9;
-    z-index: 1234567898765;
-}
-
-#fixed-text {
+.fixed-text {
     position: fixed;
     font-family: impact;
     font-size: 20px;
@@ -160,6 +141,22 @@ body {
         nudge 5s linear infinite alternate;
 }
 
+
+body {
+    background-image: url("./Insurance.png");
+}
+
+#heading {
+    color: rgb(255, 0, 183);
+    padding: 0.05cm;
+    width: 700px;
+    background-image: url("milky-way-2695569_1280.jpg");
+    font-size: 20px;
+    position: relative;
+    font-family: cursive;
+    opacity: 0.9;
+    z-index: 123456789;
+}
 #logos {
     float: right;
     margin: -300px;
