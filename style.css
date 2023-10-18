@@ -132,7 +132,7 @@ body {
     background-image: url("./Insurance.png");
 }
 
-#heading {
+.heading {
     color: rgb(255, 0, 183);
     padding: 0.05cm;
     width: 700px;
