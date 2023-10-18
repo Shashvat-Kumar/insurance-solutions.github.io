@@ -157,24 +157,24 @@ body {
     margin-top: -130px;
 }
 
-.lists a {
+#lists a {
     color: rgb(40, 8, 137);
     font-family: fantasy;
 }
 
-.lists a:hover {
+#lists a:hover {
     color: rgb(255, 234, 0);
     font-family: serif;
     font-size: 30px;
 }
 
-.lists {
+#lists {
     background-image: url("abstract-background-6m6cjbifu3zpfv84.png");
     width: 760px;
     opacity: 0.9;
 }
 
-.lists h1 {
+#lists h1 {
   font-size: 40px;
 }
 
