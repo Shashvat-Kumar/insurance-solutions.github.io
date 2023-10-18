@@ -71,6 +71,54 @@
     }
   }
 
+
+@keyframes specialOfferAnimation {
+  0%, 100% {
+    transform: scale(1);
+    background: linear-gradient(45deg, #FFD700, #FF1493);
+  }
+  50% {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #14ff37, #6600ff);
+  }
+}
+  
+.special-offer {
+  position: fixed;
+  top: 10;
+  left: 10;
+  z-index: 234567;
+  display: inline-block;
+  animation: specialOfferAnimation 2s infinite;
+}
+  
+.star {
+  position: relative;
+  width: 120px; /* Adjust the size as needed */
+  height: 120px;
+}
+  
+.star-inner {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 104px solid #FFD700; /* Adjust the color and size as needed */
+}
+  
+.star span {
+  position: absolute;
+  top: 30px; /* Adjust the vertical position as needed */
+  left: 20px; /* Adjust the horizontal position as needed */
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+  
+
+
 .fixed-text {
     position: fixed;
     font-family: impact;
