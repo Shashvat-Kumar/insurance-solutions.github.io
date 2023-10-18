@@ -149,6 +149,7 @@ body {
     position: relative;
     font-family: cursive;
     opacity: 0.9;
+    z-index: 1234567898765;
 }
 #logos {
     float: right;
