@@ -144,7 +144,7 @@ body {
     z-index: 1234567898765;
 }
 
-.fixed-text {
+#fixed-text {
     position: fixed;
     font-family: impact;
     font-size: 20px;
