@@ -1,3 +1,10 @@
+#menu {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+
 #txtcont {
   background-color: brown;
   position: fixed;
